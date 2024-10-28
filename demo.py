@@ -61,8 +61,8 @@ class HangmanGame(tk.Tk):
         self.guessed_letters = set()
         
         pygame.mixer.init()
-        self.win_sound = pygame.mixer.Sound('res/win.wav')  
-        self.lose_sound = pygame.mixer.Sound('res/lose.mp3') 
+        self.win_sound = pygame.mixer.Sound('res/audio/win.wav')  
+        self.lose_sound = pygame.mixer.Sound('res/audio/lose.mp3') 
         
         self.title("Hangman Game")
         self.geometry("400x500")  
