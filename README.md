@@ -4,7 +4,7 @@ Welcome to the Hangman Game! This is a fun and interactive game where players gu
 
 ## Preview
 
-![Preview](res/1.gif "demo.py") ![Preview](res/2.gif "main.y")
+![Preview](res/01.gif "demo.py") ![Preview](res/02.gif "main.y")
 
 ## Features
 
