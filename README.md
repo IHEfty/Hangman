@@ -2,6 +2,10 @@
 
 Welcome to the Hangman Game! This is a fun and interactive game where players guess letters to uncover a hidden word. The game features categories such as Animals, Countries, Fruits, and Colours. Enjoy the challenge and see how many mistakes you can make before losing!
 
+## Preview
+
+![Preview](res/1.gif "demo.py") ![Preview](res/2.gif "main.y")
+
 ## Features
 
 - **Multiple Categories**: Choose from various categories including Animals, Countries, Fruits, and Colours.
