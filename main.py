@@ -110,14 +110,14 @@ class HangmanGame(tk.Tk):
             self.hangman_obj.add_mistake()
             self.hangman_obj.set_hangman(self.hangman_label)
             if self.hangman_obj.mistakes == self.hangman_obj.max_mistakes:
-                pygame.mixer.music.load('res/lose.mp3')  
+                pygame.mixer.music.load('res/audio/lose.mp3')  
                 pygame.mixer.music.play()
                 messagebox.showinfo("Game Over", f"Sorry, you lost! The word was '{chosen_word}'.")
                 self.reset_game()
         else:
             self.update_display_word()
             if all(letter in self.guessed_letters for letter in chosen_word):
-                pygame.mixer.music.load('res/win.wav') 
+                pygame.mixer.music.load('res/audio/win.wav') 
                 pygame.mixer.music.play()
                 messagebox.showinfo("Congratulations!", "You won!")
                 self.reset_game()
